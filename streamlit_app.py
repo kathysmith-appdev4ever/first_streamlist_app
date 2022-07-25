@@ -106,13 +106,13 @@ streamlit.stop()
 
 # =================================================================================================
 # Allow the end user to add a fruit to the list
-add_my_fruit = streamlit.text_input('What fruit would you like to add?', 'jackfruit')
-streamlit.write('Thanks for adding ', add_my_fruit)
+# add_my_fruit = streamlit.text_input('What fruit would you like to add?', 'jackfruit')
+# streamlit.write('Thanks for adding ', add_my_fruit)
 
 # This will not work correctly, but just go with it for now.
 # It has a control flow issue.  This piece of code is executing everytime we interact with the page.
 # It should on execute when we want to add a fruit.
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+# my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 # =================================================================================================
 
 # =================================================================================================
